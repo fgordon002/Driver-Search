@@ -8,7 +8,7 @@ from utils import *
 #read in the data
 @st.cache_data
 def load_data():
-    max_scores = pd.read_csv("Data/Maxscores_alldrivers_allneurons.csv", index_col=0)
+    max_scores = pd.read_csv("Data/maxscores_alldrivers_allneurons.csv", index_col=0)
     neuron_metadata = pd.read_csv("Data/neuron_metadata.csv", index_col=0)
     driver_metadata = pd.read_csv("Data/driver_metadata.csv", index_col=0)
     return max_scores, neuron_metadata, driver_metadata
