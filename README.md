@@ -16,8 +16,8 @@ To use this app on your local machine, you will need to have python
 3) You will get a warining message in the vscode terminal like this: 
 
         "Warning: to view this Streamlit app on a browser, run it with the following command: streamlit run **pathname**"
-        
-    Copy that code (streamlit run and the pathname after it), paste it into the terminal, and run it. 
+
+    Copy `streamlit run` and the pathname after it, paste that code into the terminal, and run it. 
 
 After following these three steps, the web app should open in a web browser and you can then use it!
     
