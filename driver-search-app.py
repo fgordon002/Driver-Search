@@ -40,13 +40,13 @@ def app():
 
     # Display Schematic for data collection
 
-    st.image("/Users/finleygordon/Desktop/Lab/Driver_search/score_collection_schematic.jpg", caption="Data Collection Schematic", use_container_width=False)
+    st.image("score_collection_schematic.jpg", caption="Data Collection Schematic", use_container_width=False)
 
     st.markdown('''The max score data can be linked to metadata about neurons from the connectome as well as metadata about drivers. The final data structure that 
                 this website sources its information from resembles an AnnData or Seurat object, where a cell by feature matrix (max score matrix) is connected to other
                 dataframes containing more information about the cells and features.''')
 
-    st.image("/Users/finleygordon/Desktop/Lab/Driver_search/data_schematic.jpg", caption = "Data Structure", use_container_width=True)
+    st.image("data_schematic.jpg", caption = "Data Structure", use_container_width=True)
 
     st.markdown('<hr>', unsafe_allow_html=True)
 
